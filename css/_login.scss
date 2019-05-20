@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#loginMessage {
+    color: red;
+    margin-top: 10px;
+}
+
+#loginContent {
+    display: flex;
+    align-items: center;
+    background-color: #edf0f5;
+    width: 100%;
+    height: 100vh;
+}
+
+#frmUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: .25rem;
+    box-shadow: 0px 0px 15px #888888;
+
+    p {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+    }
+    
+    a {
+        text-decoration: underline;
+        font-weight: 600;
+    }
+}
+
+#frmUser input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    font-size: 16px;
+    color: #222;
+    margin-top: 10px;
+    max-width: 400px;
+}
+
+#frmUser button {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #1B2A38;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    max-width: 400px;
+} 
+

@@ -1,0 +1,395 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: #edf0f5; }
+
+.btn {
+  background-color: #1B2A38;
+  color: white;
+  width: 90%;
+  max-width: 200px; }
+
+button {
+  cursor: pointer; }
+
+a {
+  color: unset;
+  text-decoration: unset; }
+
+a:hover {
+  color: unset; }
+
+#signupContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #edf0f5; }
+  #signupContainer #frmSignup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #signupContainer #frmSignup h1 {
+      margin-bottom: 15px; }
+    #signupContainer #frmSignup input {
+      width: 90%;
+      max-width: 500px;
+      padding: 10px 5px;
+      margin-top: 10px; }
+    #signupContainer #frmSignup #btnSignup {
+      margin-top: 20px; }
+
+#msgSignupError {
+  margin: 0;
+  margin-bottom: 10px;
+  color: red; }
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px; }
+
+#loginMessage {
+  color: red;
+  margin-top: 10px; }
+
+#loginContent {
+  display: flex;
+  align-items: center;
+  background-color: #edf0f5;
+  width: 100%;
+  height: 100vh; }
+
+#frmUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 50px 20px;
+  border-radius: .25rem;
+  box-shadow: 0px 0px 15px #888888; }
+  #frmUser p {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px; }
+  #frmUser a {
+    text-decoration: underline;
+    font-weight: 600; }
+
+#frmUser input {
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  font-size: 16px;
+  color: #222;
+  margin-top: 10px;
+  max-width: 400px; }
+
+#frmUser button {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #1B2A38;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  max-width: 400px; }
+
+#logout, #changeProfilePicture, #changePassword, #findPeople {
+  cursor: pointer;
+  text-decoration: underline; }
+
+.btnToggleMenuContainer {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid black; }
+
+.btnToggleMenu .fa-bars {
+  font-size: 30px;
+  color: black;
+  text-align: right; }
+
+.btnToggleMenu {
+  padding: 10px; }
+
+#collapseExample {
+  background-color: #1B2A38; }
+
+.card {
+  background-color: unset !important; }
+
+#collapseBodyContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 15px; }
+
+.cardBody1, .cardBody2, .cardBody3, .cardBody4 {
+  flex-grow: 1;
+  width: 100px;
+  text-align: center;
+  max-height: 300px;
+  color: white; }
+
+#profilePicture {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+  border-radius: .25rem; }
+
+#socialMediaFeed {
+  width: 90%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 80px; }
+  #socialMediaFeed #createTweetContainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: .25rem;
+    border: 1px solid #b7b7b7;
+    box-shadow: 0px 0px 15px #888888; }
+  #socialMediaFeed h2 {
+    font-size: 20px; }
+  #socialMediaFeed #textareaTweet {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black; }
+  #socialMediaFeed .btnCreateTweet {
+    background-color: #1B2A38;
+    width: 90%;
+    max-width: 100px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: .25rem;
+    margin-top: 10px; }
+
+.tweet {
+  background-color: white;
+  border: 1px solid grey;
+  padding: 20px;
+  box-shadow: 0px 0px 15px #888888;
+  margin-top: 20px;
+  border-radius: .25rem;
+  width: 100%; }
+
+.tweetHeader {
+  display: flex; }
+  .tweetHeader .fa-twitter-square {
+    font-size: 48px;
+    color: #2aa2ef; }
+  .tweetHeader .tweetTime {
+    width: 100%;
+    text-align: right;
+    vertical-align: top;
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 14px; }
+  .tweetHeader .userWallProfilePicture {
+    width: 50px;
+    height: 48px;
+    object-fit: cover; }
+  .tweetHeader .twitterNameHandles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .tweetHeader .twitterNameHandles .twitterName {
+      vertical-align: top;
+      padding-left: 5px;
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 2px; }
+    .tweetHeader .twitterNameHandles .twitterHandle {
+      font-size: 12px;
+      padding-left: 5px; }
+
+.twitterMessage {
+  font-size: 18px;
+  margin-top: 10px; }
+
+.updateProfileImageContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#frmUpdateProfilePicture {
+  width: 90%;
+  margin-bottom: 1%;
+  margin-right: 0.6%;
+  margin-left: 0.6%;
+  background-color: #fff;
+  padding: 80px 20px;
+  max-width: 450px;
+  box-shadow: 0px 0px 15px #888888; }
+  #frmUpdateProfilePicture #btnUpdateProfilePicture {
+    background-color: #1B2A38;
+    border: none;
+    color: #fff;
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer; }
+  #frmUpdateProfilePicture #msgError {
+    margin: 0;
+    margin-bottom: 10px;
+    color: red; }
+
+.editProfileContent {
+  min-height: 100vh;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.EditProfileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding: 20px;
+  max-width: 650px;
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: 0px 0px 5px 1px;
+  margin: 0 auto; }
+
+.EditProfileContainer #frmEditProfile {
+  width: 100%; }
+
+.EditProfileContainer input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px; }
+
+#btnEditProfile {
+  background-color: #1B2A38;
+  width: 90%;
+  max-width: 150px;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: .25rem;
+  margin-top: 10px; }
+
+#frmConfirmPassword label, #frmEditPassword label {
+  padding: 5px;
+  width: 100%;
+  margin: 0px; }
+
+#frmConfirmPassword p, #frmEditPassword p {
+  width: 100%;
+  padding: 0px 5px;
+  margin: 0px;
+  color: red;
+  font-weight: bold; }
+
+#userPassword {
+  width: 100%;
+  padding: 5px; }
+
+.editPasswordContent {
+  min-height: 100vh;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.editPasswordContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding: 20px;
+  max-width: 650px;
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: 0px 0px 5px 1px;
+  margin: 0 auto; }
+
+.editPasswordContainer #frmEditPassword {
+  width: 100%; }
+
+.editPasswordContainer input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px; }
+
+#btnEditPassword {
+  background-color: #1B2A38;
+  width: 90%;
+  max-width: 150px;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: .25rem;
+  margin-top: 10px; }
+
+#allUserContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; }
+  #allUserContainer #allUsers {
+    background-color: white;
+    width: 90%;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: .25rem;
+    border: 1px solid #b7b7b7;
+    box-shadow: 0px 0px 15px #888888; }
+    #allUserContainer #allUsers h2 {
+      width: 100%;
+      text-align: center;
+      border-bottom: 1px solid black;
+      padding-bottom: 10px;
+      padding-top: 20px;
+      margin-bottom: 25px; }
+  #allUserContainer .user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    padding: 5px 15px; }
+    #allUserContainer .user img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover; }
+    #allUserContainer .user .userInfo {
+      margin-left: 10px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      #allUserContainer .user .userInfo p {
+        margin-bottom: 5px; }
+    #allUserContainer .user button {
+      width: 135px;
+      height: 40px;
+      background-color: #1B2A38;
+      color: white;
+      border: none;
+      border-radius: .25rem; }
+
+/*# sourceMappingURL=bundle.css.map */

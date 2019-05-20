@@ -1,0 +1,292 @@
+#logout, #changeProfilePicture, #changePassword, #findPeople {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.btnToggleMenuContainer {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+}
+
+.btnToggleMenu .fa-bars {
+    font-size: 30px;
+    color: black;
+    text-align: right;
+}
+
+.btnToggleMenu {
+    padding: 10px;
+}
+
+#collapseExample {
+    background-color: $primary-darkgrey;
+}
+
+.card {
+    background-color: unset !important;
+}
+
+#collapseBodyContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.cardBody1, .cardBody2, .cardBody3, .cardBody4 {
+    flex-grow: 1;
+    width: 100px;
+    text-align: center;
+    max-height: 300px; 
+    color: white;
+}
+
+#profilePicture {
+    height: 100%;
+    width: 120px;
+    object-fit: cover;
+    border-radius: .25rem;
+}
+
+#socialMediaFeed {
+    width: 90%;
+    max-width: 650px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 80px;
+
+    #createTweetContainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: .25rem;
+    border: 1px solid #b7b7b7;
+    box-shadow: 0px 0px 15px #888888;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #textareaTweet {
+        width: 100%;
+        padding: 5px;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    .btnCreateTweet {
+        background-color: $primary-darkgrey;
+        width: 90%;
+        max-width: 100px;
+        border:none;
+        color:white;
+        padding: 5px 10px;
+        border-radius: .25rem;
+        margin-top: 10px;
+    }
+}
+
+.tweet {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 20px;
+    box-shadow: 0px 0px 15px #888888;
+    margin-top: 20px;
+    border-radius: .25rem;
+    width: 100%;
+}
+
+.tweetHeader {
+    display: flex;
+
+    .fa-twitter-square {
+        font-size: 48px;
+        color: #2aa2ef;
+    }
+
+    .tweetTime {
+    width: 100%;
+    text-align: right;
+    vertical-align: top;
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    }
+
+    .userWallProfilePicture {
+        width: 50px;
+        height: 48px;
+        object-fit: cover;
+    }
+
+    .twitterNameHandles {
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .twitterName {
+            vertical-align: top;
+            padding-left: 5px;
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 2px;
+        }
+
+        .twitterHandle {
+            font-size: 12px;
+            padding-left: 5px;
+        }
+    }
+}
+
+.twitterMessage {
+    font-size: 18px;
+    margin-top: 10px;
+} 
+
+.updateProfileImageContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frmUpdateProfilePicture {
+    width: 90%;
+    margin-bottom: 1%;
+    margin-right: 0.6%;
+    margin-left: 0.6%;
+    background-color: #fff;
+    padding: 80px 20px;
+    max-width: 450px;
+    box-shadow: 0px 0px 15px #888888;
+
+    #btnUpdateProfilePicture {
+        background-color: $primary-darkgrey;
+        border: none;
+        color: #fff;
+        margin-top: 15px;
+        width: 100%;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    #msgError {
+    margin: 0;
+    margin-bottom: 10px;
+    color: red;
+    }
+}
+
+.editProfileContent {
+    min-height: 100vh;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.EditProfileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+    max-width: 650px;
+    background-color: #fff;
+    border-radius: .25rem;
+    box-shadow: 0px 0px 5px 1px;
+    margin: 0 auto;
+}
+
+.EditProfileContainer #frmEditProfile {
+    width: 100%;
+}
+
+.EditProfileContainer input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#btnEditProfile {
+    background-color: #1B2A38;
+    width: 90%;
+    max-width: 150px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: .25rem;
+    margin-top: 10px;
+}
+
+#frmConfirmPassword label, #frmEditPassword label {
+    padding: 5px;
+    width: 100%;
+    margin: 0px;
+}
+
+
+#frmConfirmPassword p, #frmEditPassword p { 
+    width: 100%;
+    padding: 0px 5px;
+    margin: 0px;
+    color:red; 
+    font-weight: bold;
+}
+
+#userPassword {
+    width: 100%; 
+    padding: 5px; 
+}
+
+.editPasswordContent {
+    min-height: 100vh;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.editPasswordContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+    max-width: 650px;
+    background-color: #fff;
+    border-radius: .25rem;
+    box-shadow: 0px 0px 5px 1px;
+    margin: 0 auto;
+}
+
+.editPasswordContainer #frmEditPassword {
+    width: 100%;
+}
+
+.editPasswordContainer input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#btnEditPassword {
+    background-color: #1B2A38;
+    width: 90%;
+    max-width: 150px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: .25rem;
+    margin-top: 10px;
+}
+
