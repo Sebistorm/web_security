@@ -4,7 +4,7 @@ try{
   $sUserName = 'web-developer';
   // $sUserName = 'root';
   // $sPassword = '';
-  $sPassword = 'mfpwadainwf94';
+  $sPassword = '';
   $sConnection = "mysql:host=localhost; dbname=web_security; charset=utf8mb4";
 
   $aOptions = array(
